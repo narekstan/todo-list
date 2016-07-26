@@ -21,7 +21,7 @@ add.addEventListener("click", function() {
 rem.addEventListener("click", function(argument) {
 	// body...
 	var lst = document.querySelector(".input");
-	lst.removeChild(lst.childNodes[0]);
+	lst.removeChild(lst.childNodes[1]);
 })
 
 
